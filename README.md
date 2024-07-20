@@ -1,8 +1,5 @@
 ## ¡Escribir tus propios blogs es más fácil para todos!
 
-<h2 align="center">
-  <a href="https://soumyajitblogs.vercel.app/" target="_blank">soumyajitblogs.vercel.app</a>
-</h2>
 
 <div align="center">
   <img alt="Demo" src="./Extra/demo.gif" />
