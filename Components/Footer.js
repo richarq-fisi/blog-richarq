@@ -30,7 +30,7 @@ function Footer() {
             </a>
             <a
               className="ml-4 text-gray-50"
-              href="https://github.com/richarq"
+              href="https://github.com/richarq-fisi"
               rel="noopener noreferrer"
               target="_blank"
             >
