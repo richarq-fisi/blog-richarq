@@ -20,7 +20,7 @@ export default function Home({ blogs, topics }) {
   return (
     <>
       <Head>
-        <title>Bits-0f-C0de 🚀</title>
+        <title>Rq | blog</title>
         <meta name="title" content="Bits-0f-C0de 🚀" />
         <meta
           name="description"
