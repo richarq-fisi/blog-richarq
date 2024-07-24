@@ -28,8 +28,8 @@ export default function Home({ blogs, topics }) {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://blogs.soumya-jit.tech/" />
-        <meta property="og:title" content="Bits-0f-C0de 🚀" />
+        <meta property="og:url" content="https://richarq.vercel.app/" />
+        <meta property="og:title" content="blog 🚀" />
         <meta
           property="og:description"
           content="Tech blogs and articles on various topics related to Software Development"
