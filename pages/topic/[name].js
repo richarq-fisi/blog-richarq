@@ -39,7 +39,7 @@ export const getStaticProps = async (context) => {
 
 function name({ blogs, topics, topicName }) {
   return (
-    <div className="min-h-screen relative bg-white dark:bg-gray-900">
+    <div className="min-h-screen relative bg-white dark:bg-gray-800">
       <Navbar topics={topics} />
       <Header topic={true} topicCount={blogs.length} topicName={topicName} />
 

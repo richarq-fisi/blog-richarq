@@ -97,7 +97,7 @@ function Navbar({ topics }) {
               </Link>
 
               <div className="dropdown inline-block relative mx-2">
-                <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50 mx-6 cursor-pointer">
+                <a className="flex items-center hover:text-indigo-600 text-gray-700 dark:text-gray-50 mx-6 cursor-pointer">
                   <span className="text-xl font-semibold">
                     <SiCodefactor className="text-sm" />
                   </span>

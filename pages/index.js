@@ -52,7 +52,7 @@ export default function Home({ blogs, topics }) {
         />
       </Head>
 
-      <div className="min-h-screen relative bg-white dark:bg-gray-900">
+      <div className="min-h-screen relative bg-white dark:bg-gray-800">
         <Navbar topics={topics} />
         <Header />
 

@@ -79,7 +79,7 @@ function id({ data, content, id, headings, topics }) {
         />
       </Head>
 
-      <div className="min-h-screen relative bg-white dark:bg-gray-900">
+      <div className="min-h-screen relative bg-white dark:bg-gray-800">
         <Navbar topics={topics} />
         <div className="py-24">
           <BlogInner data={data} content={content} headings={headings} />

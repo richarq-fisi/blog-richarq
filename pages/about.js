@@ -14,7 +14,7 @@ export const getStaticProps = () => {
 
 function about({ topics }) {
   return (
-    <div className="min-h-screen relative bg-white dark:bg-gray-900">
+    <div className="min-h-screen relative bg-white dark:bg-gray-800">
       <Navbar topics={topics} />
       <div className="max-w-2xl pt-20 pb-32 px-6 text-center mx-auto">
         <div className="h-64 w-full justify-center flex">
@@ -35,7 +35,7 @@ function about({ topics }) {
         </p>
 
         <div className="text-center pt-8">
-          <button className="bg-indigo-500 px-3 py-1 font-semibold text-white inline-flex items-center space-x-2 rounded dark:bg-indigo-600">
+          <button className="bg-indigo-500 px-3 py-1 font-semibold text-white inline-flex items-center space-x-2 rounded dark:bg-indigo-500">
             <FaLaptop />
             <a
               rel="noopener noreferrer"
@@ -46,7 +46,7 @@ function about({ topics }) {
             </a>
           </button>
 
-          <button className="bg-indigo-500 px-3 py-1 font-semibold text-white inline-flex items-center space-x-2 rounded ml-3 dark:bg-indigo-600">
+          <button className="bg-indigo-600 px-3 py-1 font-semibold text-white inline-flex items-center space-x-2 rounded ml-3 dark:bg-indigo-500">
             <FaTwitter />
             <a
               className="twitter-follow-button"
