@@ -21,32 +21,30 @@ function about({ topics }) {
           <img src="/about.png" className="h-64" />
         </div>
         <h2 className="text-3xl font-semibold text-gray-700 py-4 dark:text-gray-200">
-          Hi,{" "}
-          <span className="bg-indigo-400 text-white rounded px-1 dark:bg-indigo-500">
-            I’m Richar
+          Hola,{" "}
+          <span className="bg-purple-400 text-white rounded px-1 dark:bg-purple-700">
+            Soy Richar
           </span>{" "}
-          . Nice to meet you.
+          . Gusto en conocerte 👋
         </h2>
-        <p className="text-gray-600 mt-4 dark:text-indigo-200">
-        Soy un desarrollador autodidacta que actualmente cursa el 9no semestre en Ingeniería de Software.
-        Mi campo de interés es la construcción de nueva web.
- Tecnologías y Cibersseguridad también en áreas relacionadas con Deep Learning
- y Procesamiento del Lenguaje Natural.
+        <p className="text-gray-600 mt-4 dark:text-purple-200">
+        Soy un desarrollador autodidacta que actualmente está cursando el noveno semestre de Ingeniería de Software.
+        Me apasiona la creación de nuevas tecnologías web, así como la ciberseguridad. También tengo un fuerte interés en áreas relacionadas con el aprendizaje profundo (Deep Learning) y el Procesamiento del Lenguaje Natural.
         </p>
 
         <div className="text-center pt-8">
-          <button className="bg-indigo-500 px-3 py-1 font-semibold text-white inline-flex items-center space-x-2 rounded dark:bg-indigo-500">
+          <button className="bg-purple-700 px-3 py-1 font-semibold text-white inline-flex items-center space-x-2 rounded dark:bg-purple-700">
             <FaLaptop />
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://richarq.vercel.app/"
+              href="https://richarq.vercel.app/project"
             >
-              See My Works
+              Ve mis proyectos
             </a>
           </button>
 
-          <button className="bg-indigo-600 px-3 py-1 font-semibold text-white inline-flex items-center space-x-2 rounded ml-3 dark:bg-indigo-500">
+          {/* <button className="bg-purple-700 px-3 py-1 font-semibold text-white inline-flex items-center space-x-2 rounded ml-3 dark:bg-purple-700">
             <FaTwitter />
             <a
               className="twitter-follow-button"
@@ -56,7 +54,7 @@ function about({ topics }) {
             >
               Follow Me
             </a>
-          </button>
+          </button> */}
         </div>
       </div>
       <Footer />

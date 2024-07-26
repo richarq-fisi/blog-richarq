@@ -6,7 +6,7 @@ function Alert({ show, type, message }) {
     <div
       className={
         type === "success"
-          ? "fixed bottom-10 z-50 rounded-lg max-w-sm text-white bg-purple-500 dark:bg-purple-600 font-medium inset-x-0 mx-auto"
+          ? "fixed bottom-10 z-50 rounded-lg max-w-sm text-white bg-purple-500 dark:bg-purple-700 font-medium inset-x-0 mx-auto"
           : "fixed bottom-10 z-50 rounded-lg max-w-sm text-white bg-red-500 font-medium inset-x-0 mx-auto"
       }
     >

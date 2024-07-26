@@ -31,7 +31,7 @@ textarea::-webkit-scrollbar {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6264f3 !important;
+  background: #9c6abe !important;
   border-radius: 5px !important;
 }
 

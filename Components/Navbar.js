@@ -81,12 +81,12 @@ function Navbar({ topics }) {
   return (
     <>
       <Alert show={viewAlert} type="success" message={alertMessage} />
-      <header className="fixed w-full border-t-4 bg-white dark:bg-dark border-indigo-600 dark:border-indigo-900 shadow dark:shadow-2 z-50">
+      <header className="fixed w-full border-t-4 bg-white dark:bg-dark border-purple-700 dark:border-purple-900 shadow dark:shadow-2 z-50">
         <div className="container mx-auto px-6 py-5">
           <div className="flex items-center justify-between">
             <div className="flex">
               <Link href="/">
-                <a className="flex items-center hover:text-indigo-600 text-gray-800 dark:text-gray-50">
+                <a className="flex items-center hover:text-purple-700 text-gray-800 dark:text-gray-50">
                   <span className="text-xl font-semibold">
                     <BiTerminal className="text-xl" />
                   </span>
@@ -97,7 +97,7 @@ function Navbar({ topics }) {
               </Link>
 
               <div className="dropdown inline-block relative mx-2">
-                <a className="flex items-center hover:text-indigo-600 text-gray-700 dark:text-gray-50 mx-6 cursor-pointer">
+                <a className="flex items-center hover:text-purple-700 text-gray-700 dark:text-gray-50 mx-6 cursor-pointer">
                   <span className="text-xl font-semibold">
                     <SiCodefactor className="text-sm" />
                   </span>
@@ -125,7 +125,7 @@ function Navbar({ topics }) {
 
             <div className="flex items-center -mx-3">
               <button
-                className="flex items-center mx-2 lg:mx-4 text-base text-gray-800 hover:text-indigo-600 dark:text-gray-50"
+                className="flex items-center mx-2 lg:mx-4 text-base text-gray-800 hover:text-purple-700 dark:text-gray-50"
                 onClick={toggleTheme}
               >
                 <span className="text-lg">
@@ -138,14 +138,14 @@ function Navbar({ topics }) {
               </button>
 
               <Link href="/about">
-                <a className="flex items-center mx-2 lg:mx-4 text-base text-gray-800 hover:text-indigo-600 dark:text-gray-50">
+                <a className="flex items-center mx-2 lg:mx-4 text-base text-gray-800 hover:text-purple-700 dark:text-gray-50">
                   <span className="text-xl">
                     <CgUserlane className="text-xl" />
                   </span>
                 </a>
               </Link>
 
-              <button className="flex items-center mx-2 lg:mx-4 text-base text-gray-800 hover:text-indigo-600 dark:text-gray-50">
+              <button className="flex items-center mx-2 lg:mx-4 text-base text-gray-800 hover:text-purple-700 dark:text-gray-50">
                 {isLogin ? (
                   <span
                     className="md:flex items-center"
