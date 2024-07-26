@@ -20,14 +20,14 @@ function Footer() {
             </a>
           </p>
           <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
-            <a
+            {/* <a
               className="text-gray-50"
               href="https://twitter.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
               <SiTwitter />
-            </a>
+            </a> */}
             <a
               className="ml-4 text-gray-50"
               href="https://github.com/richarq-fisi"
@@ -36,14 +36,14 @@ function Footer() {
             >
               <SiGithub />
             </a>
-            <a
+            {/* <a
               className="ml-4 text-gray-50"
               href="https://www.instagram.com/"
               rel="noopener noreferrer"
               target="_blank"
             >
               <SiInstagram />
-            </a>
+            </a> */}
             <a
               className="ml-4 text-gray-50"
               href="https://www.linkedin.com/in//"
